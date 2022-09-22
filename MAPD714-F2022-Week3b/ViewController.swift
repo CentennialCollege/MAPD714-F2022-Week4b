@@ -12,13 +12,20 @@ class ViewController: UIViewController {
     
     // Event Handlers
 
-    @IBAction func OperatorButton_Pressed(_ sender: UIButton) {
+    @IBAction func OperatorButton_Pressed(_ sender: UIButton)
+    {
     }
     
-    @IBAction func NumberButton_Pressed(_ sender: UIButton) {
+    @IBAction func NumberButton_Pressed(_ sender: UIButton)
+    {
+        var button = sender as UIButton
+        ResultLabel.text = button.titleLabel!.text
+        
+        
     }
     
-    @IBAction func ExtraButton_Pressed(_ sender: UIButton) {
+    @IBAction func ExtraButton_Pressed(_ sender: UIButton)
+    {
     }
     
     

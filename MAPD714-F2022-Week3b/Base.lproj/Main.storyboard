@@ -129,7 +129,7 @@
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZc-YG-Url"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf4-O4-BU2">
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf4-O4-BU2">
                                         <rect key="frame" x="166" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
@@ -413,23 +413,33 @@
                                     <constraint firstItem="JOb-1f-Bys" firstAttribute="leading" secondItem="5Er-JL-qw8" secondAttribute="trailing" constant="6" id="ym6-0b-Eql"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40x-rS-UB8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40x-rS-UB8">
                                 <rect key="frame" x="33" y="227" width="324" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ResultBorder" translatesAutoresizingMaskIntoConstraints="NO" id="M7u-wY-fS1">
+                                <rect key="frame" x="16" y="200" width="358" height="128"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="M7u-wY-fS1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0Ld-nu-we8"/>
+                            <constraint firstItem="M7u-wY-fS1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="1Az-Kr-H7L"/>
+                            <constraint firstItem="40x-rS-UB8" firstAttribute="leading" secondItem="2zw-w3-Dzb" secondAttribute="leading" id="6jV-2Y-2nf"/>
                             <constraint firstItem="6aG-No-qNq" firstAttribute="trailing" secondItem="2Jd-d2-C5h" secondAttribute="trailing" id="80o-Ta-S9j"/>
                             <constraint firstItem="6aG-No-qNq" firstAttribute="leading" secondItem="2Jd-d2-C5h" secondAttribute="leading" id="BbW-aB-ua0"/>
+                            <constraint firstItem="M7u-wY-fS1" firstAttribute="centerX" secondItem="40x-rS-UB8" secondAttribute="centerX" id="Erh-nd-yJn"/>
                             <constraint firstItem="6aG-No-qNq" firstAttribute="top" secondItem="2zw-w3-Dzb" secondAttribute="bottom" constant="21" id="FIr-wk-XCh"/>
                             <constraint firstItem="2Jd-d2-C5h" firstAttribute="top" secondItem="6aG-No-qNq" secondAttribute="bottom" constant="18" id="XoO-bW-0qd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6aG-No-qNq" secondAttribute="trailing" constant="33" id="b37-vC-HxL"/>
+                            <constraint firstItem="40x-rS-UB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="f1n-kc-9eL"/>
+                            <constraint firstItem="M7u-wY-fS1" firstAttribute="centerY" secondItem="40x-rS-UB8" secondAttribute="centerY" id="gnK-au-p2S"/>
                             <constraint firstItem="6aG-No-qNq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="nr0-AD-lfW"/>
+                            <constraint firstItem="40x-rS-UB8" firstAttribute="trailing" secondItem="2zw-w3-Dzb" secondAttribute="trailing" id="oUA-AT-VhA"/>
+                            <constraint firstItem="2zw-w3-Dzb" firstAttribute="top" secondItem="40x-rS-UB8" secondAttribute="bottom" constant="10" id="tqp-uF-Wbi"/>
                         </constraints>
                     </view>
                     <connections>
@@ -438,10 +448,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1109" y="-166"/>
+            <point key="canvasLocation" x="-1792" y="-58"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ResultBorder" width="330" height="80"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
