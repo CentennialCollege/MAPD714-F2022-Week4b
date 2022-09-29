@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MAPD714_F2022_Week3b" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MAPD714_F2022_Week4b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,6 +31,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="&lt;=">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="h5v-31-SCi"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="h5v-31-SCi"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="ExtraButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3RA-l1-LMC"/>
                                         </connections>
@@ -46,6 +56,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="C">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="jHt-cU-ftu"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="jHt-cU-ftu"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="ExtraButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A1w-Cx-cuf"/>
                                         </connections>
@@ -61,6 +81,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="%">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="DaS-NQ-2yX"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="DaS-NQ-2yX"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVQ-4B-a4A"/>
                                         </connections>
@@ -95,6 +125,41 @@
                                     <constraint firstItem="cva-J3-F8z" firstAttribute="firstBaseline" secondItem="4Gd-Fj-JFl" secondAttribute="firstBaseline" id="egs-Ie-TFD"/>
                                     <constraint firstItem="RDf-p3-QtK" firstAttribute="bottom" secondItem="iYQ-Ut-hp9" secondAttribute="bottom" id="kwc-Za-kY3"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="41c-Qz-b6H"/>
+                                        <exclude reference="7b7-0H-Ddh"/>
+                                        <exclude reference="RGE-tE-aer"/>
+                                        <exclude reference="RVg-uG-OgN"/>
+                                        <exclude reference="kwc-Za-kY3"/>
+                                        <exclude reference="9LZ-Mi-7c9"/>
+                                        <exclude reference="IcW-X0-1aT"/>
+                                        <exclude reference="aQ1-KD-Rvc"/>
+                                        <exclude reference="4O9-Y2-RcK"/>
+                                        <exclude reference="Eyg-dj-fGa"/>
+                                        <exclude reference="egs-Ie-TFD"/>
+                                        <exclude reference="1s0-Ja-kGJ"/>
+                                        <exclude reference="cPz-QJ-w2a"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="41c-Qz-b6H"/>
+                                        <include reference="7b7-0H-Ddh"/>
+                                        <include reference="RGE-tE-aer"/>
+                                        <include reference="RVg-uG-OgN"/>
+                                        <include reference="kwc-Za-kY3"/>
+                                        <include reference="9LZ-Mi-7c9"/>
+                                        <include reference="IcW-X0-1aT"/>
+                                        <include reference="aQ1-KD-Rvc"/>
+                                        <include reference="4O9-Y2-RcK"/>
+                                        <include reference="Eyg-dj-fGa"/>
+                                        <include reference="egs-Ie-TFD"/>
+                                        <include reference="1s0-Ja-kGJ"/>
+                                        <include reference="cPz-QJ-w2a"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6aG-No-qNq" userLabel="Fourth Row">
                                 <rect key="frame" x="33" y="408" width="324" height="75"/>
@@ -110,6 +175,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="8">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="cWA-Qz-osh"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="cWA-Qz-osh"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7OD-fc-pGm"/>
                                         </connections>
@@ -125,6 +200,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="7">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="kQ5-3i-GXt"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="kQ5-3i-GXt"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZc-YG-Url"/>
                                         </connections>
@@ -140,6 +225,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="9">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Z3E-Hx-yjD"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="Z3E-Hx-yjD"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEN-5f-NNe"/>
                                         </connections>
@@ -173,6 +268,41 @@
                                     <constraint firstItem="tf4-O4-BU2" firstAttribute="leading" secondItem="Ho5-4c-gCV" secondAttribute="trailing" constant="8" id="vKj-Hq-Sjh"/>
                                     <constraint firstItem="xAr-yD-HpU" firstAttribute="centerY" secondItem="6aG-No-qNq" secondAttribute="centerY" id="vwc-OR-Ve4"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CN0-xf-IAs"/>
+                                        <exclude reference="WIf-M6-iaZ"/>
+                                        <exclude reference="YtP-MD-sCS"/>
+                                        <exclude reference="kSZ-Jv-HXz"/>
+                                        <exclude reference="vwc-OR-Ve4"/>
+                                        <exclude reference="1Uu-aW-nea"/>
+                                        <exclude reference="ZgA-wQ-Atk"/>
+                                        <exclude reference="c0A-YI-1lZ"/>
+                                        <exclude reference="czf-h6-jXK"/>
+                                        <exclude reference="m28-R2-Is6"/>
+                                        <exclude reference="vKj-Hq-Sjh"/>
+                                        <exclude reference="hDk-ez-D3h"/>
+                                        <exclude reference="s8N-pH-ZDz"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="CN0-xf-IAs"/>
+                                        <include reference="WIf-M6-iaZ"/>
+                                        <include reference="YtP-MD-sCS"/>
+                                        <include reference="kSZ-Jv-HXz"/>
+                                        <include reference="vwc-OR-Ve4"/>
+                                        <include reference="1Uu-aW-nea"/>
+                                        <include reference="ZgA-wQ-Atk"/>
+                                        <include reference="c0A-YI-1lZ"/>
+                                        <include reference="czf-h6-jXK"/>
+                                        <include reference="m28-R2-Is6"/>
+                                        <include reference="vKj-Hq-Sjh"/>
+                                        <include reference="hDk-ez-D3h"/>
+                                        <include reference="s8N-pH-ZDz"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" id="2Jd-d2-C5h" userLabel="Third Row">
                                 <rect key="frame" x="33" y="501" width="324" height="75"/>
@@ -189,6 +319,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="5">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="DO0-T0-41i"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="DO0-T0-41i"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lzf-2o-cYX"/>
                                         </connections>
@@ -204,6 +344,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="4">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="aSw-MC-4CO"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="aSw-MC-4CO"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6On-Ai-et3"/>
                                         </connections>
@@ -219,6 +369,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="6">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="IvB-q1-Rfs"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="IvB-q1-Rfs"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5wL-aS-G7y"/>
                                         </connections>
@@ -253,6 +413,41 @@
                                     <constraint firstItem="MLH-vO-ijX" firstAttribute="leading" secondItem="3gZ-8H-N7E" secondAttribute="leading" id="vf9-FU-mpd"/>
                                     <constraint firstItem="lcz-Ui-Jkh" firstAttribute="baseline" secondItem="u6p-yA-Lc4" secondAttribute="baseline" id="wgm-5U-WGd"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1l8-gk-9NU"/>
+                                        <exclude reference="ELi-35-DXc"/>
+                                        <exclude reference="ObS-pj-iAk"/>
+                                        <exclude reference="frH-Nu-3bY"/>
+                                        <exclude reference="vf9-FU-mpd"/>
+                                        <exclude reference="fpp-9L-vrO"/>
+                                        <exclude reference="rrB-BO-Bzb"/>
+                                        <exclude reference="wgm-5U-WGd"/>
+                                        <exclude reference="4Ap-kQ-enJ"/>
+                                        <exclude reference="iSY-Ck-S80"/>
+                                        <exclude reference="rGZ-5u-60h"/>
+                                        <exclude reference="W9b-1p-Kok"/>
+                                        <exclude reference="Y6v-B4-c6A"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1l8-gk-9NU"/>
+                                        <include reference="ELi-35-DXc"/>
+                                        <include reference="ObS-pj-iAk"/>
+                                        <include reference="frH-Nu-3bY"/>
+                                        <include reference="vf9-FU-mpd"/>
+                                        <include reference="fpp-9L-vrO"/>
+                                        <include reference="rrB-BO-Bzb"/>
+                                        <include reference="wgm-5U-WGd"/>
+                                        <include reference="4Ap-kQ-enJ"/>
+                                        <include reference="iSY-Ck-S80"/>
+                                        <include reference="rGZ-5u-60h"/>
+                                        <include reference="W9b-1p-Kok"/>
+                                        <include reference="Y6v-B4-c6A"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" id="3ZZ-BJ-nWd" userLabel="Second Row">
                                 <rect key="frame" x="33" y="594" width="324" height="75"/>
@@ -269,6 +464,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="2">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="X84-oU-fz5"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="X84-oU-fz5"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RnD-Kf-0oj"/>
                                         </connections>
@@ -284,6 +489,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="1">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5RT-XD-blS"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="5RT-XD-blS"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u02-SI-KLy"/>
                                         </connections>
@@ -299,6 +514,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="3">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="vEy-AT-gyD"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="vEy-AT-gyD"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="knf-AJ-Sur"/>
                                         </connections>
@@ -333,6 +558,41 @@
                                     <constraint firstItem="U8t-rO-QmE" firstAttribute="leading" secondItem="5Rp-6k-EcD" secondAttribute="leading" id="qPP-Qz-rWa"/>
                                     <constraint firstItem="HnS-o4-TER" firstAttribute="leading" secondItem="yaT-qf-bXa" secondAttribute="trailing" constant="8" id="qVN-8p-8sA"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5uV-hN-3eC"/>
+                                        <exclude reference="Yxy-Io-5PF"/>
+                                        <exclude reference="cHI-NF-SDc"/>
+                                        <exclude reference="p3z-IV-GHd"/>
+                                        <exclude reference="qPP-Qz-rWa"/>
+                                        <exclude reference="Dek-gR-e8F"/>
+                                        <exclude reference="KOX-TD-1fb"/>
+                                        <exclude reference="qKH-cb-BTh"/>
+                                        <exclude reference="9cb-Ks-zbM"/>
+                                        <exclude reference="fbp-cH-2sN"/>
+                                        <exclude reference="qVN-8p-8sA"/>
+                                        <exclude reference="UL1-RW-inJ"/>
+                                        <exclude reference="cfs-Nf-aoU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="5uV-hN-3eC"/>
+                                        <include reference="Yxy-Io-5PF"/>
+                                        <include reference="cHI-NF-SDc"/>
+                                        <include reference="p3z-IV-GHd"/>
+                                        <include reference="qPP-Qz-rWa"/>
+                                        <include reference="Dek-gR-e8F"/>
+                                        <include reference="KOX-TD-1fb"/>
+                                        <include reference="qKH-cb-BTh"/>
+                                        <include reference="9cb-Ks-zbM"/>
+                                        <include reference="fbp-cH-2sN"/>
+                                        <include reference="qVN-8p-8sA"/>
+                                        <include reference="UL1-RW-inJ"/>
+                                        <include reference="cfs-Nf-aoU"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" id="uZA-dy-oM3" userLabel="First Row">
                                 <rect key="frame" x="33" y="689" width="324" height="75"/>
@@ -349,6 +609,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title=".">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="coB-ks-LEG"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="coB-ks-LEG"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="le9-Gw-ySj"/>
                                         </connections>
@@ -364,6 +634,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="0">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="dBJ-Mr-mWR"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="dBJ-Mr-mWR"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="NumberButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="But-Dr-woD"/>
                                         </connections>
@@ -391,6 +671,16 @@
                                         <buttonConfiguration key="configuration" style="plain" title="=">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="l3v-Eu-fvs"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="l3v-Eu-fvs"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <action selector="OperatorButton_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FSz-qR-0PH"/>
                                         </connections>
@@ -412,15 +702,63 @@
                                     <constraint firstItem="m9H-wt-DmY" firstAttribute="leading" secondItem="qtq-7r-vdq" secondAttribute="trailing" constant="8" id="x9r-z0-kPK"/>
                                     <constraint firstItem="JOb-1f-Bys" firstAttribute="leading" secondItem="5Er-JL-qw8" secondAttribute="trailing" constant="6" id="ym6-0b-Eql"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Bae-y8-sfr"/>
+                                        <exclude reference="Nks-BN-mEB"/>
+                                        <exclude reference="Ton-Ba-JF1"/>
+                                        <exclude reference="ccL-wP-sk4"/>
+                                        <exclude reference="hYY-OK-tm3"/>
+                                        <exclude reference="9f1-ua-wGK"/>
+                                        <exclude reference="stI-p2-W20"/>
+                                        <exclude reference="x9r-z0-kPK"/>
+                                        <exclude reference="3Cp-kU-a46"/>
+                                        <exclude reference="FeC-Gi-Q71"/>
+                                        <exclude reference="VWz-n5-bMC"/>
+                                        <exclude reference="ym6-0b-Eql"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Bae-y8-sfr"/>
+                                        <include reference="Nks-BN-mEB"/>
+                                        <include reference="Ton-Ba-JF1"/>
+                                        <include reference="ccL-wP-sk4"/>
+                                        <include reference="hYY-OK-tm3"/>
+                                        <include reference="9f1-ua-wGK"/>
+                                        <include reference="stI-p2-W20"/>
+                                        <include reference="x9r-z0-kPK"/>
+                                        <include reference="3Cp-kU-a46"/>
+                                        <include reference="FeC-Gi-Q71"/>
+                                        <include reference="VWz-n5-bMC"/>
+                                        <include reference="ym6-0b-Eql"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40x-rS-UB8">
                                 <rect key="frame" x="33" y="227" width="324" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="324" id="hT5-4i-MaN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hT5-4i-MaN"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="hT5-4i-MaN"/>
+                                    </mask>
+                                </variation>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ResultBorder" translatesAutoresizingMaskIntoConstraints="NO" id="M7u-wY-fS1">
-                                <rect key="frame" x="16" y="200" width="358" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ResultBorder" translatesAutoresizingMaskIntoConstraints="NO" id="M7u-wY-fS1">
+                                <rect key="frame" x="16" y="200" width="358" height="129"/>
+                                <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -441,6 +779,42 @@
                             <constraint firstItem="40x-rS-UB8" firstAttribute="trailing" secondItem="2zw-w3-Dzb" secondAttribute="trailing" id="oUA-AT-VhA"/>
                             <constraint firstItem="2zw-w3-Dzb" firstAttribute="top" secondItem="40x-rS-UB8" secondAttribute="bottom" constant="10" id="tqp-uF-Wbi"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="b37-vC-HxL"/>
+                                <exclude reference="0Ld-nu-we8"/>
+                                <exclude reference="1Az-Kr-H7L"/>
+                                <exclude reference="Erh-nd-yJn"/>
+                                <exclude reference="gnK-au-p2S"/>
+                                <exclude reference="6jV-2Y-2nf"/>
+                                <exclude reference="f1n-kc-9eL"/>
+                                <exclude reference="oUA-AT-VhA"/>
+                                <exclude reference="tqp-uF-Wbi"/>
+                                <exclude reference="80o-Ta-S9j"/>
+                                <exclude reference="BbW-aB-ua0"/>
+                                <exclude reference="FIr-wk-XCh"/>
+                                <exclude reference="nr0-AD-lfW"/>
+                                <exclude reference="XoO-bW-0qd"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="b37-vC-HxL"/>
+                                <include reference="0Ld-nu-we8"/>
+                                <include reference="1Az-Kr-H7L"/>
+                                <include reference="Erh-nd-yJn"/>
+                                <include reference="gnK-au-p2S"/>
+                                <include reference="6jV-2Y-2nf"/>
+                                <include reference="f1n-kc-9eL"/>
+                                <include reference="oUA-AT-VhA"/>
+                                <include reference="tqp-uF-Wbi"/>
+                                <include reference="80o-Ta-S9j"/>
+                                <include reference="BbW-aB-ua0"/>
+                                <include reference="FIr-wk-XCh"/>
+                                <include reference="nr0-AD-lfW"/>
+                                <include reference="XoO-bW-0qd"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="ResultLabel" destination="40x-rS-UB8" id="dlY-su-GaW"/>
@@ -448,7 +822,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2043" y="-73"/>
+            <point key="canvasLocation" x="-5905" y="-1517"/>
         </scene>
     </scenes>
     <resources>
